@@ -1,5 +1,44 @@
 main {
     background-color: #FFE4FA;
     height: 100vh;
-    width: 100%;
 }
+
+#resultado{
+    background-color: #fff;
+    height: 30px;
+    width: 207px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#base{
+    background-color: #ABC798;
+    top: 50%;
+    left:50%;
+    border-radius: 22px;
+    padding: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(31, 31, 31);
+    border: none;
+    background-color: #fff;
+    margin: 3px;
+    vertical-align: top;
+
+}
+
+button:hover{
+    background-color: #FFC4EB;
+}
+
